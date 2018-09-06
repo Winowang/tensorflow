@@ -14,7 +14,7 @@ LABEL maintainer="Jupyter Tensorflow"
 # Tensorflow 1.10 GPU cuda9.2 
 #RUN conda install --quiet --yes pytorch torchvision cuda90 -c pytorch && \
 
-RUN conda install --quiet --yes tensorflow=1.10.0=gpu_py36h3514669_0 && \
+RUN conda install --quiet --yes tensorflow=1.10.0=gpu_py36hcebf108_0 && \
 
 #    conda remove --quiet --yes --force qt pyqt && \
     conda clean -tipsy && \
