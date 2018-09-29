@@ -2,7 +2,7 @@
 # Distributed under the terms of the Modified BSD License.
 #FROM winowang/jupyter_images:latest
 #FROM winowang/jupyter_gpu:cuda92
-FROM winowang/dockerfile_test:cuda92-simple
+FROM winowang/dockerfile_test:cuda92-latest
 
 LABEL maintainer="Jupyter Tensorflow"
 
