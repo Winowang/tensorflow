@@ -7,9 +7,7 @@ FROM winowang/jupyter_gpu:latest
 
 LABEL maintainer="Jupyter Tensorflow"
 
-# Tensorflow 1.10 GPU cuda9.2 
-#RUN conda install --quiet --yes pytorch torchvision cuda90 -c pytorch && \
-
+# Tensorflow GPU cuda9.2 
 #RUN conda install --quiet --yes tensorflow=1.10.0=gpu_py36hcebf108_0 && \
 #RUN conda install --quiet --yes tensorflow=1.11.0=gpu_py36h9c9050a_0 && \
 RUN conda install --quiet --yes tensorflow=1.12.0=gpu_py36he74679b_0 && \
